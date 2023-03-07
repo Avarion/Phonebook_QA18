@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cbc4f23-c482-4be7-959c-034121e543e4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LoginTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" afterDir="false" />
     </list>
@@ -44,7 +45,30 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.RegistrationTest">
+  <component name="RunManager" selected="Gradle.LoginTests.loginPossitiveTest">
+    <configuration name="LoginTests.loginPossitiveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;LoginTests.loginPossitiveTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="RegistrationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -68,7 +92,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RegistrationTest.regNeg" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RegistrationTest.regNegativeTestMail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -81,7 +105,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;RegistrationTest.regNeg&quot;" />
+            <option value="&quot;RegistrationTest.regNegativeTestMail&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -139,10 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LoginTests.loginPossitiveTest" />
+        <item itemvalue="Gradle.RegistrationTest.regPositiveTest" />
+        <item itemvalue="Gradle.RegistrationTest.regNegativeTestMail" />
         <item itemvalue="Gradle.RegistrationTest" />
         <item itemvalue="Gradle.RegistrationTest.regNegativeTestPass" />
-        <item itemvalue="Gradle.RegistrationTest.regNeg" />
-        <item itemvalue="Gradle.RegistrationTest.regPositiveTest" />
       </list>
     </recent_temporary>
   </component>
