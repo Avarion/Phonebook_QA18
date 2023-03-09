@@ -82,40 +82,62 @@ public class RegistrationTest extends TestBase {
 
     @Test
     public void regNegativeTestMail() {
-        WebElement loginBtn1 = wd.findElement(By.xpath("//a[@href='/login']"));
-        loginBtn1.click();
 
-//          int i = (int) (System.currentTimeMillis() / 1000) % 3600;
-        WebElement emailInput1 = wd.findElement(By.xpath("//input[1]"));
-        emailInput1.click();
-        emailInput1.clear();
-        emailInput1.sendKeys("avarion87gmail.com");
+        openLoginRegistrationForm();
 
-        WebElement passInput1 = wd.findElement(By.xpath("//input[2]"));
-        passInput1.click();
-        passInput1.clear();
-        passInput1.sendKeys("Illumiel1!");
 
-        wd.findElement(By.xpath("//button[2]")).click();
+        String email = "avarion87gmail.com";
+        String password = "Illumiel1!";
+        fillLoginRegistrationForm(email, password);
+
+        submitRegistration();
+
+
+//        WebElement loginBtn1 = wd.findElement(By.xpath("//a[@href='/login']"));
+//        loginBtn1.click();
+//
+////          int i = (int) (System.currentTimeMillis() / 1000) % 3600;
+//        WebElement emailInput1 = wd.findElement(By.xpath("//input[1]"));
+//        emailInput1.click();
+//        emailInput1.clear();
+//        emailInput1.sendKeys("avarion87gmail.com");
+//
+//        WebElement passInput1 = wd.findElement(By.xpath("//input[2]"));
+//        passInput1.click();
+//        passInput1.clear();
+//        passInput1.sendKeys("Illumiel1!");
+//
+//        wd.findElement(By.xpath("//button[2]")).click();
     }
 
     @Test
     public void regNegativeTestPass() {
-        WebElement loginBtn1 = wd.findElement(By.xpath("//a[@href='/login']"));
-        loginBtn1.click();
 
-//      int i = (int) (System.currentTimeMillis() / 1000) % 3600;
-        WebElement emailInput1 = wd.findElement(By.xpath("//input[1]"));
-        emailInput1.click();
-        emailInput1.clear();
-        emailInput1.sendKeys("avarion87@gmail.com");
+        openLoginRegistrationForm();
 
-        WebElement passInput1 = wd.findElement(By.xpath("//input[2]"));
-        passInput1.click();
-        passInput1.clear();
-        passInput1.sendKeys("Illumiel");
+        String email = "avarion87@gmail.com";
+        String password = "Illumiel1";
+        fillLoginRegistrationForm(email, password);
 
-        wd.findElement(By.xpath("//button[2]")).click();
+        submitRegistration();
+
+
+
+//        WebElement loginBtn1 = wd.findElement(By.xpath("//a[@href='/login']"));
+//        loginBtn1.click();
+//
+////      int i = (int) (System.currentTimeMillis() / 1000) % 3600;
+//        WebElement emailInput1 = wd.findElement(By.xpath("//input[1]"));
+//        emailInput1.click();
+//        emailInput1.clear();
+//        emailInput1.sendKeys("avarion87@gmail.com");
+//
+//        WebElement passInput1 = wd.findElement(By.xpath("//input[2]"));
+//        passInput1.click();
+//        passInput1.clear();
+//        passInput1.sendKeys("Illumiel");
+//
+//        wd.findElement(By.xpath("//button[2]")).click();
     }
 
 
