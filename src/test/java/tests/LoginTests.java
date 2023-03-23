@@ -36,9 +36,14 @@ public class LoginTests extends TestBase {
     @Test
     public void loginNegativeTestEmail() {
 
+        User user1 = User.builder()
+                .email("avarion87gmail.com")
+                .password("Illumiel1!")
+                .build();
+
         app.getUser().openLoginRegistrationForm();
 
-        app.getUser().fillLoginRegistrationForm("avarion87gmail.com", "Illumiel1!");
+        app.getUser().fillLoginRegistrationForm(user1);
 
         app.getUser().submitLogin();
 
@@ -49,9 +54,14 @@ public class LoginTests extends TestBase {
     @Test
     public void loginNegativeTestPassword() {
 
+        User user2 = User.builder()
+                .email("avarion87gmail.com")
+                .password("Illumiel1")
+                .build();
+
         app.getUser().openLoginRegistrationForm();
 
-        app.getUser().fillLoginRegistrationForm("avarion87@gmail.com", "Illumiel1");
+        app.getUser().fillLoginRegistrationForm(user2);
 
         app.getUser().submitLogin();
 

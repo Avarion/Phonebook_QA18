@@ -1,5 +1,6 @@
 package tests;
 
+import models.User;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -21,9 +22,14 @@ public class RegistrationTest extends TestBase {
         app.getUser().openLoginRegistrationForm();
 
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;
-        String email = "abc" + i + "avarion87@gmail.com";
-        String password = "Illumiel1!";
-        app.getUser().fillLoginRegistrationForm(email, password);
+
+        User user = User.builder()
+                .email("avarion87" + i + "@gmail.com")
+                .password("Illumiel1!")
+                .build();
+
+
+        app.getUser().fillLoginRegistrationForm(user);
 
         app.getUser().submitRegistration();
 
@@ -36,9 +42,12 @@ public class RegistrationTest extends TestBase {
 
         app.getUser().openLoginRegistrationForm();
 
-        String email = "avarion87gmail.com";
-        String password = "Illumiel1!";
-        app.getUser().fillLoginRegistrationForm(email, password);
+        User user1 = User.builder()
+                .email("avarion87gmail.com")
+                .password("Illumiel1!")
+                .build();
+
+        app.getUser().fillLoginRegistrationForm(user1);
 
         app.getUser().submitRegistration();
 
@@ -51,9 +60,12 @@ public class RegistrationTest extends TestBase {
 
         app.getUser().openLoginRegistrationForm();
 
-        String email = "avarion87@gmail.com";
-        String password = "Illumiel1";
-        app.getUser().fillLoginRegistrationForm(email, password);
+        User user2 = User.builder()
+                .email("avarion87gmail.com")
+                .password("Illumiel1")
+                .build();
+
+        app.getUser().fillLoginRegistrationForm(user2);
 
         app.getUser().submitRegistration();
 
