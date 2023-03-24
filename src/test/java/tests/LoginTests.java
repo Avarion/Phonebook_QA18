@@ -47,6 +47,8 @@ public class LoginTests extends TestBase {
 
         app.getUser().submitLogin();
 
+        app.getUser().isAlertPresent();
+
         Assert.assertFalse(app.getUser().isLogged());
 
     }
@@ -64,6 +66,8 @@ public class LoginTests extends TestBase {
         app.getUser().fillLoginRegistrationForm(user2);
 
         app.getUser().submitLogin();
+
+        app.getUser().isAlertPresent();
 
         Assert.assertFalse(app.getUser().isLogged());
 

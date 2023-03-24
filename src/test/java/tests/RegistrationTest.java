@@ -28,7 +28,6 @@ public class RegistrationTest extends TestBase {
                 .password("Illumiel1!")
                 .build();
 
-
         app.getUser().fillLoginRegistrationForm(user);
 
         app.getUser().submitRegistration();
@@ -51,6 +50,8 @@ public class RegistrationTest extends TestBase {
 
         app.getUser().submitRegistration();
 
+        app.getUser().isAlertPresent();
+
         Assert.assertFalse(app.getUser().isElementPresent(By.xpath("//a[text()='ADD']")));
 
     }
@@ -68,6 +69,8 @@ public class RegistrationTest extends TestBase {
         app.getUser().fillLoginRegistrationForm(user2);
 
         app.getUser().submitRegistration();
+
+        app.getUser().isAlertPresent();
 
         Assert.assertFalse(app.getUser().isElementPresent(By.xpath("//a[text()='ADD']")));
 
