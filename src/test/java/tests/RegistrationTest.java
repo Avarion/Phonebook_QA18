@@ -76,6 +76,8 @@ public class RegistrationTest extends TestBase {
 
     }
 
+
+
     @AfterMethod
     public void tearDown() {
 //        // wd.quit();
