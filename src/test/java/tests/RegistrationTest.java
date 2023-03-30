@@ -19,6 +19,8 @@ public class RegistrationTest extends TestBase {
     @Test
     public void regPositiveTest() {
 
+        logger.info("registrationPositiveTest start with: ");
+
         app.getUser().openLoginRegistrationForm();
 
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;
