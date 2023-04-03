@@ -1,0 +1,29 @@
+2476 [Test worker] INFO  tests.TestBase     ### Start test regPositiveTest
+2480 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //button[.='Sign Out']
+12535 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //button[.='Sign Out'] is found successful
+12536 [Test worker] INFO  tests.TestBase  registrationPositiveTest start with: 
+12536 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //a[@href='/login']
+12551 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //a[@href='/login'] is found successful
+12608 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //input[]
+12649 [Test worker] INFO  manager.MyListener  Something went wrong!
+12649 [Test worker] INFO  manager.MyListener  invalid selector: Unable to locate an element with the xpath expression //input[] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[]' is not a valid XPath expression.
+  (Session info: chrome=111.0.5563.147)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HOME-PC', ip: '192.168.1.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:10684}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fc3b4b529c5102171ef94138e270a1f0
+*** Element info: {Using=xpath, value=//input[]}
+12649 [Test worker] INFO  manager.MyListener  invalid selector: Unable to locate an element with the xpath expression //input[] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[]' is not a valid XPath expression.
+  (Session info: chrome=111.0.5563.147)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HOME-PC', ip: '192.168.1.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:10684}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fc3b4b529c5102171ef94138e270a1f0
+*** Element info: {Using=xpath, value=//input[]}
+12915 [Test worker] INFO  tests.TestBase     ### Finished ###

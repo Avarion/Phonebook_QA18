@@ -52,7 +52,7 @@ public class RegistrationTest extends TestBase {
 
         app.getUser().submitRegistration();
 
-        app.getUser().isAlertPresent();
+       app.getUser().isAlertPresent();
 
         Assert.assertFalse(app.getUser().isElementPresent(By.xpath("//a[text()='ADD']")));
 

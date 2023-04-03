@@ -1,0 +1,15 @@
+2573 [Test worker] INFO  tests.TestBase     ### Start test regPositiveTest
+2576 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //button[.='Sign Out']
+12589 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //button[.='Sign Out'] is found successful
+12590 [Test worker] INFO  tests.TestBase  registrationPositiveTest start with: 
+12590 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //a[@href='/login']
+12605 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //a[@href='/login'] is found successful
+12663 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //input[1]
+12683 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //input[1] is found successful
+12805 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //input[2]
+12824 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //input[2] is found successful
+12918 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //button[2]
+12936 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //button[2] is found successful
+12969 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //a[text()='ADD']
+13980 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //a[text()='ADD'] is found successful
+13984 [Test worker] INFO  tests.TestBase     ### Finished ###
