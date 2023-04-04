@@ -16,7 +16,7 @@ public class LoginTests extends TestBase {
 
     @Test
     public void loginPositiveTest() {
-//                       new User().
+
         User user = User.builder()
                 .email("avarion87@gmail.com")
                 .password("Illumiel1!")
@@ -24,7 +24,6 @@ public class LoginTests extends TestBase {
 
         app.getUser().openLoginRegistrationForm();
 
-//      app.getUser().fillLoginRegistrationForm("avarion87@gmail.com", "Illumiel1!");
         app.getUser().fillLoginRegistrationForm(user);
 
         app.getUser().submitLogin();

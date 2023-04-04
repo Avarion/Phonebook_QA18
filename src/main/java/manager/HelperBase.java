@@ -37,9 +37,6 @@ public class HelperBase {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-
-//        FluentWait<WebDriver> wait = new FluentWait<>(wd);
-//        wait.withTimeout(Duration.ofSeconds(time));
     }
 
     public void takeScreenShot(String link){
