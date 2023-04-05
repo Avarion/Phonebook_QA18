@@ -25,3 +25,9 @@ dependencies {
 test {
     useTestNG()
 }
+
+task regress(type: Test){
+    useTestNG(){
+        suites 'src/test/resources/testng.xml'
+    }
+}
