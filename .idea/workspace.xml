@@ -5,11 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cbc4f23-c482-4be7-959c-034121e543e4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Log/log-20230405T130015.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/manager/NGListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/log-20230407T095640.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/log-20230407T100017.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/log-20230407T102332.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/log-20230407T105104.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/log-20230407T105303.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/log-20230407T112415.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/log-20230407T113930.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/reg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/regress.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/smoke.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RegistrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,19 +77,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Tools/QA18/Phonebook_QA18&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Tools/QA18/ILCarro",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="Gradle.RegistrationTest.regPositiveTest">
+}]]></component>
+  <component name="RunManager" selected="Gradle.RegistrationTest">
     <configuration name="LoginTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -195,9 +207,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RegistrationTest" />
         <item itemvalue="Gradle.RegistrationTest.regPositiveTest" />
         <item itemvalue="Gradle.LoginTests" />
-        <item itemvalue="Gradle.RegistrationTest" />
         <item itemvalue="Gradle.RegistrationTest.regNegativeTestPass" />
         <item itemvalue="Gradle.RegistrationTest.regNegativeTestMail" />
       </list>

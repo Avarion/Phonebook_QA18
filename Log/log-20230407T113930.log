@@ -1,0 +1,85 @@
+3161 [Test worker] INFO  manager.ApplicationManager  Testing on Firefox Driver
+3725 [Test worker] INFO  tests.TestBase     ### Start test loginNegativeTestEmail
+3727 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //button[.='Sign Out']
+13767 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //button[.='Sign Out'] is found successful
+13768 [Test worker] INFO  manager.NGListener  Start of the test: loginNegativeTestEmail
+13770 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //a[@href='/login']
+13783 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //a[@href='/login'] is found successful
+14030 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //input[1]
+14048 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //input[1] is found successful
+14332 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //input[2]
+14343 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //input[2] is found successful
+14615 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //button[1]
+14620 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //button[1] is found successful
+15921 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //button[.='Sign Out']
+25937 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //button[.='Sign Out'] is found successful
+25940 [Test worker] INFO  manager.NGListener  Test success: loginNegativeTestEmail
+25941 [Test worker] INFO  tests.TestBase     ### Finished ###
+25942 [Test worker] INFO  tests.TestBase     ### Start test loginNegativeTestPassword
+25942 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //button[.='Sign Out']
+35965 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //button[.='Sign Out'] is found successful
+35965 [Test worker] INFO  manager.NGListener  Start of the test: loginNegativeTestPassword
+35965 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //a[@href='/login']
+35981 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //a[@href='/login'] is found successful
+36212 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //input[1]
+36229 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //input[1] is found successful
+36509 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //input[2]
+36526 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //input[2] is found successful
+36800 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //button[1]
+36807 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //button[1] is found successful
+37579 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //button[.='Sign Out']
+47607 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //button[.='Sign Out'] is found successful
+47607 [Test worker] INFO  manager.NGListener  Test success: loginNegativeTestPassword
+47607 [Test worker] INFO  tests.TestBase     ### Finished ###
+47608 [Test worker] INFO  tests.TestBase     ### Start test loginPositiveTest
+47608 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //button[.='Sign Out']
+57626 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //button[.='Sign Out'] is found successful
+57626 [Test worker] INFO  manager.NGListener  Start of the test: loginPositiveTest
+57626 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //a[@href='/login']
+57642 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //a[@href='/login'] is found successful
+57874 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //input[1]
+57892 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //input[1] is found successful
+58168 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //input[2]
+58187 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //input[2] is found successful
+58460 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //button[1]
+58468 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //button[1] is found successful
+58701 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //button[.='Sign Out']
+58763 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //button[.='Sign Out'] is found successful
+58763 [Test worker] INFO  manager.NGListener  Test success: loginPositiveTest
+58764 [Test worker] INFO  tests.TestBase     ### Finished ###
+58764 [Test worker] INFO  tests.TestBase     ### Start test loginPositiveTest
+58765 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //button[.='Sign Out']
+58780 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //button[.='Sign Out'] is found successful
+58780 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //button[.='Sign Out']
+58796 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //button[.='Sign Out'] is found successful
+59031 [Test worker] INFO  manager.NGListener  Start of the test: loginPositiveTest
+59032 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //a[@href='/login']
+59046 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //a[@href='/login'] is found successful
+59280 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //input[1]
+59296 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //input[1] is found successful
+59572 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //input[2]
+59592 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //input[2] is found successful
+59865 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //button[1]
+59873 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //button[1] is found successful
+60107 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //button[.='Sign Out']
+60170 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //button[.='Sign Out'] is found successful
+60170 [Test worker] INFO  manager.NGListener  Test success: loginPositiveTest
+60171 [Test worker] INFO  tests.TestBase     ### Finished ###
+60171 [Test worker] INFO  tests.TestBase     ### Start test loginPositiveTest
+60172 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //button[.='Sign Out']
+60186 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //button[.='Sign Out'] is found successful
+60186 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //button[.='Sign Out']
+60199 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //button[.='Sign Out'] is found successful
+60434 [Test worker] INFO  manager.NGListener  Start of the test: loginPositiveTest
+60434 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //a[@href='/login']
+60452 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //a[@href='/login'] is found successful
+60685 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //input[1]
+60702 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //input[1] is found successful
+60967 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //input[2]
+60971 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //input[2] is found successful
+61243 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //button[1]
+61250 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //button[1] is found successful
+61472 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //button[.='Sign Out']
+61539 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //button[.='Sign Out'] is found successful
+61539 [Test worker] INFO  manager.NGListener  Test success: loginPositiveTest
+61540 [Test worker] INFO  tests.TestBase     ### Finished ###

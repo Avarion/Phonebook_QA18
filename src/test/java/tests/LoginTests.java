@@ -7,14 +7,14 @@ import org.testng.annotations.Test;
 
 public class LoginTests extends TestBase {
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition() {
         if (app.getUser().isLogged()) {
             app.getUser().logout();
         }
     }
 
-    @Test
+    @Test(invocationCount = 3, groups = {"smoke"})
     public void loginPositiveTest() {
 
         User user = User.builder()
@@ -32,7 +32,7 @@ public class LoginTests extends TestBase {
 
     }
 
-    @Test
+    @Test(groups = {"smoke", "regress"})
     public void loginNegativeTestEmail() {
 
         User user1 = User.builder()
@@ -52,7 +52,7 @@ public class LoginTests extends TestBase {
 
     }
 
-    @Test
+    @Test(groups = {"regress"})
     public void loginNegativeTestPassword() {
 
         User user2 = User.builder()
