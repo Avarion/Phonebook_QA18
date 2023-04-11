@@ -1,5 +1,6 @@
 package tests;
 
+import manager.ProviderData;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -14,8 +15,26 @@ public class LoginTests extends TestBase {
         }
     }
 
-    @Test(invocationCount = 3, groups = {"smoke"})
-    public void loginPositiveTest() {
+    @Test(invocationCount = 1, groups = {"smoke"}, dataProvider = "loginModelDto", dataProviderClass = ProviderData.class)
+    public void loginPositiveTest(User user) {
+
+//        User user = User.builder()
+//                .email("avarion87@gmail.com")
+//                .password("Illumiel1!")
+//                .build();
+
+        app.getUser().openLoginRegistrationForm();
+
+        app.getUser().fillLoginRegistrationForm(user);
+
+        app.getUser().submitLogin();
+
+        Assert.assertTrue(app.getUser().isLogged());
+
+    }
+
+    @Test(invocationCount = 2, groups = {"smoke"})
+    public void loginPositiveTestPast() {
 
         User user = User.builder()
                 .email("avarion87@gmail.com")

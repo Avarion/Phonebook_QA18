@@ -1,0 +1,3 @@
+1776 [Test worker] INFO  manager.ApplicationManager  Testing on Chrome Driver
+2364 [Test worker] INFO  manager.NGListener  Test failure: org.testng.TestNGException: 
+Method public void tests.LoginTests.loginPositiveTest() requires a @DataProvider named : loginModelDTO in class manager.ProviderData

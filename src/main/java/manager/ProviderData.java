@@ -1,5 +1,6 @@
 package manager;
 
+import models.User;
 import org.testng.annotations.DataProvider;
 
 import java.util.ArrayList;
@@ -11,9 +12,9 @@ public class ProviderData{
     @DataProvider
     public Iterator<Object[]> loginModelDto() {
         List<Object[]> list = new ArrayList<>();
-        list.add(new Object[]{});
-        list.add(new Object[]{});
-        list.add(new Object[]{});
+        list.add(new Object[]{User.builder().email("avarion87@gmail.com").password("Illumiel1!").build()});
+        list.add(new Object[]{User.builder().email("avarion87@gmail.com").password("Illumiel1!").build()});
+        list.add(new Object[]{User.builder().email("avarion87@gmail.com").password("Illumiel1!").build()});
         return list.iterator();
     }
 
