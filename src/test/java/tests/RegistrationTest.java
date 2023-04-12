@@ -1,5 +1,6 @@
 package tests;
 
+import manager.ProviderData;
 import models.User;
 import org.openqa.selenium.By;
 import org.testng.Assert;
@@ -29,6 +30,21 @@ public class RegistrationTest extends TestBase {
                 .email("avarion87" + i + "@gmail.com")
                 .password("Illumiel1!")
                 .build();
+
+        app.getUser().fillLoginRegistrationForm(user);
+
+        app.getUser().submitRegistration();
+
+        Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//a[text()='ADD']")));
+
+    }
+
+    @Test(dataProvider = "registrationCSV", dataProviderClass = ProviderData.class)
+    public void regPositiveTestWithCVS(User user) {
+
+        logger.info("registrationPositiveTest start with: ");
+
+        app.getUser().openLoginRegistrationForm();
 
         app.getUser().fillLoginRegistrationForm(user);
 

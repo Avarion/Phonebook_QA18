@@ -1,0 +1,17 @@
+1689 [Test worker] INFO  manager.ApplicationManager  Testing on Chrome Driver
+2339 [Test worker] INFO  tests.TestBase     ### Start test regNegativeTestMail
+2340 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //button[.='Sign Out']
+12375 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //button[.='Sign Out'] is found successful
+12375 [Test worker] INFO  manager.NGListener  Start of the test: regNegativeTestMail
+12376 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //a[@href='/login']
+12392 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //a[@href='/login'] is found successful
+12430 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //input[1]
+12456 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //input[1] is found successful
+12554 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //input[2]
+12566 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //input[2] is found successful
+12656 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //button[2]
+12673 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //button[2] is found successful
+13770 [Test worker] INFO  manager.MyListener  Start searching element by By.xpath: //a[text()='ADD']
+23843 [Test worker] INFO  manager.MyListener  The element with locator by By.xpath: //a[text()='ADD'] is found successful
+23846 [Test worker] INFO  manager.NGListener  Test success: regNegativeTestMail
+23846 [Test worker] INFO  tests.TestBase     ### Finished ###

@@ -1,0 +1,6 @@
+1689 [Test worker] INFO  manager.ApplicationManager  Testing on Chrome Driver
+2352 [Test worker] INFO  manager.NGListener  Test failure: org.testng.internal.reflect.MethodMatcherException: 
+[public void tests.RegistrationTest.regPositiveTestWithCVS(models.User)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: regPositiveTestWithCVS([Parameter{index=0, type=models.User, declaredAnnotations=[]}])
+Arguments: [(models.User$UserBuilder) User.UserBuilder(email=avarion871gmail.com, password= Illumiel22)]
