@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cbc4f23-c482-4be7-959c-034121e543e4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Log/log-20230418T191200.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Log/log-20230418T191401.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Log/log-20230418T192355.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Log/log-20230418T192553.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Log/log-20230418T192738.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Log/log-20230418T200352.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Log/log-20230418T200426.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Log/log-20230418T200453.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1491.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1610.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-823.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-942.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2cbc4f23-c482-4be7-959c-034121e543e4" name="Changes" comment="CW_20">
       <change beforePath="$PROJECT_DIR$/src/test/resources/data.cvs" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data.cvs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -221,9 +208,19 @@
       <option name="presentableId" value="Default" />
       <updated>1677833015514</updated>
     </task>
+    <task id="LOCAL-00001" summary="CW_20">
+      <created>1681838495077</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681838495077</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="CW_20" />
+    <option name="LAST_COMMIT_MESSAGE" value="CW_20" />
   </component>
 </project>
