@@ -5,27 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cbc4f23-c482-4be7-959c-034121e543e4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Log/log-20230412T094737.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Log/log-20230412T094814.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Log/log-20230412T094941.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Log/log-20230412T095054.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Log/log-20230412T095228.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Log/log-20230412T095259.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Log/log-20230412T095413.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Log/log-20230412T095502.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Log/log-20230412T095552.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Log/log-20230412T095739.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Log/log-20230412T095856.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Log/log-20230412T095955.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/data.cvs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-3473.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-3549.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/log-20230418T191200.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/log-20230418T191401.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/log-20230418T192355.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/log-20230418T192553.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/log-20230418T192738.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/log-20230418T200352.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/log-20230418T200426.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/log-20230418T200453.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1491.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1610.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-823.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-942.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/ProviderData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/ProviderData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RegistrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data.cvs" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data.cvs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,13 +80,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Tools/QA18/ILCarro",
+    "last_opened_file_path": "C:/Tools/QA18/Phonebook_QA18",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.RegistrationTest.regPositiveTestWithCVS">
+  <component name="RunManager" selected="Gradle.RegistrationTest">
     <configuration name="LoginTests.loginPositiveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -211,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RegistrationTest" />
         <item itemvalue="Gradle.RegistrationTest.regPositiveTestWithCVS" />
         <item itemvalue="Gradle.RegistrationTest.regNegativeTestMail" />
         <item itemvalue="Gradle.LoginTests.loginPositiveTestPast" />
         <item itemvalue="Gradle.LoginTests.loginPositiveTest" />
-        <item itemvalue="Gradle.RegistrationTest" />
       </list>
     </recent_temporary>
   </component>
